@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@d978ab9, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"21","parents":[]},"eventTime":1641843444582,"message":"Compiling project0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Family\Desktop\Revature - Big Data\VS Code\Project0\target\scala-2.11\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\Family\\Desktop\\Revature - Big Data\\VS Code\\Project0\\target\\scala-2.11\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/src/main/scala/Project0.scala"},"buildTarget":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Compile"},"diagnostics":[{"range":{"start":{"line":39,"character":20},"end":{"line":39,"character":21}},"severity":1,"source":"sbt","message":"not found: value log"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Family\Desktop\Revature - Big Data\VS Code\Project0\src\main\scala\Project0.scala:40:21: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m                    log.write(Calendar.getInstance().getTimeInMillis + "- Executing - 'DELETE FROM project0 WHERE id=("+item+")'\n")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"C:\\Users\\Family\\Desktop\\Revature - Big Data\\VS Code\\Project0\\src\\main\\scala\\Project0.scala:40:21: not found: value log"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                    log.write(Calendar.getInstance().getTimeInMillis + \"- Executing - 'DELETE FROM project0 WHERE id=(\"+item+\")'\\n\")"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                    ^"})[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"one error found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/src/main/scala/Project0.scala"},"buildTarget":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Compile"},"diagnostics":[{"range":{"start":{"line":39,"character":20},"end":{"line":39,"character":21}},"severity":1,"source":"sbt","message":"not found: value log"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"21","parents":[]},"eventTime":1641843444854,"message":"Compiled project0","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Compile"},"errors":1,"warnings":0,"time":272}})[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Jan 10, 2022 2:37:24 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

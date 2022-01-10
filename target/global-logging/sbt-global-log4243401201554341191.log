@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(;Test/compile; collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(Test/compile, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@46c2189e, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"106","parents":[]},"eventTime":1641484461186,"message":"Compiling project0","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Family\Desktop\Revature - Big Data\VS Code\Project0\target\scala-2.11\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to C:\\Users\\Family\\Desktop\\Revature - Big Data\\VS Code\\Project0\\target\\scala-2.11\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/src/main/scala/Project0.scala"},"buildTarget":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"106","parents":[]},"eventTime":1641484461552,"message":"Compiled project0","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Compile"},"errors":0,"warnings":0,"time":366}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"107","parents":[]},"eventTime":1641484461561,"message":"Compiling project0-test","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"107","parents":[]},"eventTime":1641484461565,"message":"Compiled project0-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Revature%20-%20Big%20Data/VS%20Code/Project0/#project0/Test"},"errors":0,"warnings":0,"time":4}})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jan 6, 2022 10:54:21 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(collectAnalyses, None, Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Processing event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / collectAnalyses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@52f118aa, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0manalysis location (C:\Users\Family\Desktop\Revature - Big Data\VS Code\Project0\target\scala-2.11\zinc\inc_compile_2.11.zip,true)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jan 6, 2022 10:54:21 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0munmatched Done event for requestId None: None[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m
