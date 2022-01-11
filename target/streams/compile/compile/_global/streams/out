@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\Family\Desktop\Revature - Big Data\VS Code\Project0\src\main\scala\Project0.scala:40:21: not found: value log[0m
-[0m[[0m[31merror[0m] [0m[0m                    log.write(Calendar.getInstance().getTimeInMillis + "- Executing - 'DELETE FROM project0 WHERE id=("+item+")'\n")[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Family\Desktop\Revature - Big Data\Project0\Project\src\main\scala\Project0.scala:54:125: not found: value str2[0m
+[0m[[0m[31merror[0m] [0m[0m                    log.write(Calendar.getInstance().getTimeInMillis + ": Executing - INSERT INTO project0 (todo) Values ("+str2+")\n")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                            ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,4 @@
+1641929592398: Executing - INSERT INTO project0 (todo) Values ('eating, sleeping, cooking')
+1641929598713: Executing - SELECT * FROM project0
+1641929646879: Executing - update project0 set todo = ('new to do list') where id =(1)
+1641929655726- Executing - DELETE FROM project0 WHERE id=(1)

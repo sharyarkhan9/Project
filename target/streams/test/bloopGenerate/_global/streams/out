@@ -1,4 +1,4 @@
-[debug] [project0-test] Classpath dependencies List()
-[debug] [project0-test] Dependencies from configurations List(project0)
-[debug] Bloop wrote the configuration of project 'project0-test' to 'C:\Users\Family\Desktop\Revature - Big Data\VS Code\Project0\.bloop\project0-test.json'
-[success] Generated .bloop\project0-test.json
+[debug] [project-test] Classpath dependencies List()
+[debug] [project-test] Dependencies from configurations List(project)
+[debug] Bloop wrote the configuration of project 'project-test' to 'C:\Users\Family\Desktop\Revature - Big Data\Project0\Project\.bloop\project-test.json'
+[success] Generated .bloop\project-test.json
