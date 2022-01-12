@@ -21,16 +21,16 @@ object Project0 {
         var choice = 0
         while (choice != 5) {
             println("Pleaes Choose an option using number keys 1 - 5: ")
-            println("1: Add a to-do list\n2: Remove a to-do list\n3: Print all to-do lists\n4: Update a to-do list\n5: Exit")
+            println("1: Create a to-do list\n2: Remove a to-do list\n3: Print all to-do lists\n4: Update a to-do list\n5: Exit")
             try {
                 choice = scanner.nextInt()
                
             }catch {
-                case e: Exception => print("Exception has been thrown. ")
+                case e: Exception => print("Exception thrown - Non numeric key entered. ")
             }
             scanner.nextLine()
                 if (choice == 1){
-                    println("Please enter an item for you to do list:")
+                    println("Please enter items for your to do list:")
                     var item = scanner.nextLine()
                     var str2 = ""
                     str2 += ("'"+item+"'")
@@ -72,7 +72,7 @@ object Project0 {
                     
                 }
                 else {
-                    println("Please only enter numbers 1 - 4")
+                    println("Please only enter numbers 1 - 5")
                     
                 }
                  

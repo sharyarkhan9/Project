@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(~run, Some(b34a8b5b-7f12-4c08-bc61-8bf459b030fa), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@74ce7fdf, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"3","parents":[]},"eventTime":1641934951951,"message":"Compiling project","dataKind":"compile-task","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Project0/project/#project/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///C:/Users/Family/Desktop/Project0/project/src/main/scala/Project0.scala"},"buildTarget":{"uri":"file:/C:/Users/Family/Desktop/Project0/project/#project/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"3","parents":[]},"eventTime":1641934952056,"message":"Compiled project","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/C:/Users/Family/Desktop/Project0/project/#project/Compile"},"errors":0,"warnings":0,"time":105}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"running Project0 "})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Waiting for threads to exit or System.exit to be called."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"  Classpath:\n\tC:\\Users\\Family\\Desktop\\Project0\\project\\target\\bg-jobs\\sbt_dcaaa6d7\\job-1\\target\\c02e7168\\09591d85\\project0-scala_2.11-0.1.jar\n\tC:\\Users\\Family\\Desktop\\Project0\\project\\target\\bg-jobs\\sbt_dcaaa6d7\\target\\642eee43\\ffcc071c\\scala-library-2.11.12.jar\n\tC:\\Users\\Family\\Desktop\\Project0\\project\\target\\bg-jobs\\sbt_dcaaa6d7\\target\\fe3bd0a7\\1bf5e67c\\mysql-connector-java-8.0.19.jar\n\tC:\\Users\\Family\\Desktop\\Project0\\project\\target\\bg-jobs\\sbt_dcaaa6d7\\target\\aae5e2db\\36cca737\\protobuf-java-3.6.1.jar"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Waiting for thread run-main-0 to terminate."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/setTraceNotification: JsonRpcNotificationMessage(2.0, $/setTraceNotification, {"value":"off"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/setTraceNotification: JsonRpcNotificationMessage(2.0, $/setTraceNotification, {"value":"off"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨1, shutdown, null})[0m
