@@ -1,10 +1,9 @@
-Technologies Used
-Tech 1 - version 1.0
-Tech 2 - version 2.0
-Tech 3 - version 3.0
-Features
-List of features ready and TODOs for future development
+# Project 2: Covid Data Analysis
 
-Awesome feature 1
-Awesome feature 2
-Awesome feature 3
+* Create a Spark Application that processes COVID data
+* Wrote SparkSQL Queries to query, analyze and display data in Tableau
+* Produce one or more .jar files for analysis using spark-submit
+* Produced 11 queries on the analysis of a covid csv file
+* Found a trend in our data using SparkSQL and Tableau for visualization
+* Implement Agile Scrum methodology for project work
+* Worked in small team (3)
