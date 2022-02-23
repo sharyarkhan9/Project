@@ -8,3 +8,6 @@
 * Created user accounts using Scala
 * Presented data to group
 * Created log files to store all user inputs
+
+# Technologies Used
+Hive, Scala , Hadoop, HDFS
