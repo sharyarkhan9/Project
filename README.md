@@ -1,9 +1,10 @@
-# Project 2: Covid Data Analysis
+# Project 1: Scala - Hive: Real time news analyzer
 
-* Create a Spark Application that processes COVID data
-* Wrote SparkSQL Queries to query, analyze and display data in Tableau
-* Produce one or more .jar files for analysis using spark-submit
-* Produced 11 queries on the analysis of a covid csv file
-* Found a trend in our data using SparkSQL and Tableau for visualization
-* Implement Agile Scrum methodology for project work
-* Worked in small team (3)
+Created Scala Program
+Wrote SQL Queries to query and display data
+Sourced the data for the project
+Connected scala program to MySql
+Created database in MySql using Scala
+Created user accounts using Scala
+Presented data to group
+Created log files to store all user inputs
